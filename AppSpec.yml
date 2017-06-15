@@ -4,5 +4,3 @@ files:
  - source: ./*
    destination: /home/ec2-user/devop/
 
-hooks:
- BeforeInstall
