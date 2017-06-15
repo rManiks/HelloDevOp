@@ -1,0 +1,7 @@
+version: 1.0
+os: linux
+files:
+	- source: /
+	  destination: /home/ec2-user/devop/
+
+hooks:
