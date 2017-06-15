@@ -1,7 +1,8 @@
 version: 0.0
 os: linux
 files:
-	- source: /
-	  destination: /home/ec2-user/devop/
+ - source: ./*
+   destination: /home/ec2-user/devop/
 
 hooks:
+ BeforeInstall
