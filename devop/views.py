@@ -1,4 +1,4 @@
 from django.http import HttpResponse
 
 def index(request):
-	return HttpResponse("<h1>Hello DevOps World, I am a Python app! Lets try a auto deploy<h1>")
+	return HttpResponse("<h1>This is a completely new content</h1>")
